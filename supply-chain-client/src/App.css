@@ -1,0 +1,82 @@
+/* Đặt văn bản trong ứng dụng vào giữa */
+.App {
+  text-align: center;
+}
+
+/* Tạo header với nền tối và điều chỉnh khoảng cách */
+.App-header {
+  background-color: #1e1e2f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+/* Tạo form để người dùng nhập thông tin với bố cục đơn giản */
+.item-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a2a40;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+/* Cấu trúc cho các input của form */
+.item-form input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Nút bấm có màu sắc nổi bật với hiệu ứng khi hover */
+.item-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #1e1e2f;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-form button:hover {
+  background-color: #4ec3e0;
+}
+
+/* Bố cục cho danh sách các item */
+.items-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Các item trong danh sách với màu nền tối và khoảng cách phù hợp */
+.item {
+  background-color: #444;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tạo cấu trúc cho các đoạn văn trong item */
+.item p {
+  margin: 5px 0;
+  color: #d1d1e0;
+  font-size: 16px;
+}
